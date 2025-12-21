@@ -23,6 +23,8 @@ const MODEL_MAPPING = {
   'claude-3-opus': 'meta/llama-3.1-405b-instruct',
   'claude-3-sonnet': 'meta/llama-3.1-70b-instruct',
   'gemini-pro': 'meta/llama-3.1-70b-instruct'
+  'deepseek-v3': 'deepseek-ai/deepseek-v3',
+  'deepseek-r1': 'deepseek-ai/deepseek-r1'
 };
 
 // Health check endpoint
