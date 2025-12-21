@@ -238,8 +238,8 @@ app.all('*', (req, res) => {
 });
 
 app.listen(PORT, '0.0.0.0', () => {
-  console.log(`OpenAI to NVIDIA NIM Proxy running on port ${PORT}`);
-  console.log(`Health check: http://localhost:${PORT}/health`);
-  console.log(`Reasoning display: ${SHOW_REASONING ? 'ENABLED' : 'DISABLED'}`);
-  console.log(`Thinking mode: ${ENABLE_THINKING_MODE ? 'ENABLED' : 'DISABLED'}`);
+  console.log(`Server running on port ${PORT}`);
+  console.log(`OpenAI to NVIDIA NIM Proxy running`);
+  console.log(`Reasoning display: ${SHOW_REASONING}`);
+  console.log(`Thinking mode: ${ENABLE_THINKING}`);
 });
