@@ -23,7 +23,7 @@ const MODEL_MAPPING = {
   'claude-3-opus': 'meta/llama-3.1-405b-instruct',
   'claude-3-sonnet': 'meta/llama-3.1-70b-instruct',
   'gemini-pro': 'meta/llama-3.1-70b-instruct'
-  'deepseek-v3.2': 'deepseek-ai/deepseek-v3.2',
+  'moonshotai': 'moonshotai/kimi-k2-thinking',
   'deepseek-r1-0528': 'deepseek-ai/deepseek-r1-0528'
 };
 
